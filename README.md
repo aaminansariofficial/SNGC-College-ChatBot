@@ -41,6 +41,15 @@ python app.py
 Or use Code Runner in VS Code: open app.py → right-click → "Run Python File"  
 The chatbot will automatically open in Microsoft Edge or Google Chrome. Make sure one of these browsers is installed.
 
+## 🧠 Custom Training
+
+If you want to train the chatbot with your own custom data:
+
+1. Open the file intents.json and replace the existing questions and responses with your own.
+2. Then run the following command to train the model:
+   ```bash
+   python train.py
+
 ## Browser Info
 This chatbot uses Python’s webbrowser module to launch in a browser window. The app attempts to open in:
 - Microsoft Edge  
