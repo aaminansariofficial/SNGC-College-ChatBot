@@ -33,8 +33,8 @@ This chatbot was developed using HTML, CSS, JavaScript (frontend) and Flask + Py
 
 ## 📦 Setup Instructions
 ```bash
-git clone https://github.com/yourusername/sngc-college-chatbot.git
-cd sngc-college-chatbot
+git clone https://github.com/aaminansariofficial/SNGC-College-ChatBot.git
+cd SNGC-College-ChatBot
 python -m venv venv
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 # (Select 'A' i.e. Yes To All if prompted)
