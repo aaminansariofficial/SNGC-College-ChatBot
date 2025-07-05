@@ -1,0 +1,143 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you?",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hello, welcome to Shree Narayana Guru College. How can I assist you today?",
+        "Good day, thank you for visiting Shree Narayana Guru College. How may I help you?",
+        "Hi there, how can I assist you with information about Shree Narayana Guru College?"
+      ]
+    },
+    {
+      "tag": "shotwords",
+      "patterns": [
+        "Bcom",
+        "Bscit",
+        "BaF",
+        "Bscds",
+        "BAMMMc",
+        "Mscit",
+        "Btm",
+        "BBI",
+        "Mcom",
+        "BA",
+        "courses",
+        "programes"
+      ],
+      "responses": [
+        "for more information visit https://sngcollege.ac.in"
+       
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "Thank you for visiting Shree Narayana Guru College. Have a great day!",
+        "Goodbye! Feel free to reach out if you have any more questions.",
+        "Thank you for your time. We look forward to assisting you again."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks a lot!"
+      ],
+      "responses": [
+        "You're welcome! If you have any other questions, please feel free to ask.",
+        "My pleasure! If you need further assistance, don't hesitate to reach out.",
+        "Glad to be of help! Let me know if there's anything else you need."
+      ]
+    },
+    {
+      "tag": "college_info",
+      "patterns": [
+        "Tell me about the college",
+        "Information about Shree Narayana Guru College",
+        "About Shree Narayana Guru College",
+        "College details"
+      ],
+      "responses": [
+        "Shree Narayana Guru College, established in July 1986 by Sree Narayana Mandira Samiti, is located at P.L. Lokhande Marg, Chembur (West). It spans approximately 5 acres of greenery with two multi-storied buildings, near Chembur railway station and mono rail, and is well-connected by BEST buses. Initially aimed at serving the local student community, it now attracts students from across Mumbai, Navi Mumbai, and Thane. The college is permanently affiliated with the University of Mumbai, recognized by UGC under Sections 2(f) and 12B, and accredited thrice by NAAC. It is a Malayalam Linguistic Minority Institution known for its strict discipline, academic excellence, and promotion of sports and cultural activities. The college also focuses on enhancing students' soft skills and regularly organizes national-level seminars, conferences, and workshops, along with hosting 'Oasis', an inter-collegiate competition in sports and cultural events."
+      ]
+    },
+    {
+      "tag": "programs_offered",
+      "patterns": [
+        "What are the programs offered by the college?",
+        "Courses offered by the college",
+        "What courses do you offer?",
+        "Programs at Shree Narayana Guru College",
+        "which courses available"
+      ],
+      "responses": [
+        "Shree Narayana Guru College offers a variety of programs, including B.Com, B.Com (Management Studies), B.Sc. (Information Technology), B.Com (Banking & Insurance), B.A.M.M.C., B.Com (Accounting & Finance), B.Com (Financial Management), B.Com (Investment Management), B.Com (Transport Management), B.Com (Environment Management and Economics), B.Sc. (Data Science), and B.A. (Economics). For more details, please visit https://sngcollege.ac.in."
+      ]
+    },
+    {
+      "tag": "fee_structure",
+      "patterns": [
+        "What is the fee structure?",
+        "College fees",
+        "Fee details"
+      ],
+      "responses": [
+        "For detailed information on the fee structure, please contact us at 9326063380 or 9326083757, or email us at degree.sngcollege86@gmail.com."
+      ]
+    },
+    {
+      "tag": "about_narayana_guru",
+      "patterns": [
+        "Who was Shree Narayana Guru?",
+        "Tell me about Shree Narayana Guru",
+        "Who is Shree Narayana Guru?",
+        "sree narayana guru"
+      ],
+      "responses": [
+        "Shree Narayana Guru (20 August 1856 20 September 1928) was a renowned philosopher, spiritual leader, and social reformer in India. He led a reform movement against caste discrimination in Kerala, advocating for spiritual enlightenment and social equality. His famous quote 'one caste, one religion, and one god for all human beings' was a cornerstone of his movement. He also authored the Advaita poem Daiva Dasakam, widely used in Kerala for community prayers."
+      ]
+    },
+    {
+      "tag": "general_info",
+      "patterns": [
+        "For information",
+        "College website",
+        "Where can I find more information?",
+        "College details online",
+        "what should i do for addmissions",
+        "How can I apply for admission?",
+        "what should i do for addmission"
+      ],
+      "responses": [
+        "For more information, please visit our official website: https://sngcollege.ac.in"
+      ]
+    },
+    {
+      "tag": "program_info",
+      "patterns": [
+        "For program related queries",
+        "Course details",
+        "Program details",
+        "Course queries"
+      ],
+      "responses": [
+        "For detailed information on programs and courses, please visit: https://sngcollege.ac.in"
+      ]
+    }
+  ]
+}

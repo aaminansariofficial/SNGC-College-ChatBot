@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SNGC College ChatBot</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="container">
+    <div class="chatbox">
+        <div class="chatbox__support">
+            <div class="chatbox__header">
+                <div class="chatbox__image--header">
+                    <img src="{{ url_for('static', filename='images/Narayana-Guru-Image.png') }}" alt="image" height="60px" width="60px">
+                </div>
+                <div class="chatbox__content--header">
+                    <h4 class="chatbox__heading--header">Chat Support</h4>
+                    <p class="chatbox__description--header">Hello, Welcome to SNGC ChatBot Service.</p>
+                </div>
+            </div>
+            <div class="chatbox__messages">
+                <div></div>
+            </div>
+            <div class="chatbox__footer">
+                <select id="questionDropdown" class="chatbox__dropdown">
+                    <option value="">Select a question</option>
+                    <option value="Who is Shree Narayana Guru?">Who is Shree Narayana Guru?</option>
+                    <option value="What courses are offered at SNGC?">What courses are offered at SNGC?</option>
+                    <option value="How can I apply for admission?">How can I apply for admission?</option>
+                    <option value="Want to ask something else?">Want to ask something else?</option>
+                </select>
+                <input type="text" id="userMessage" placeholder="Write a message" style="display: none;">
+                <button class="chatbox__send--footer send__button">Send</button>
+            </div>
+        </div>
+        <div class="chatbox__button">
+            <button><img src="{{ url_for('static', filename='images/chatbot-opening-icon.jpg') }}" width="50px" height="50px"/></button>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Correctly embed the script root variable
+    var SCRIPT_ROOT = "{{ request.script_root|tojson }}";
+</script>
+<script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
