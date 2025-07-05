@@ -86,8 +86,6 @@ If neither is installed, you can edit the browser path in app.py to change the d
 - Sumeet Mishra  
 - Ravish Singh  
 
-> If you'd like to add GitHub/LinkedIn links for your teammates, feel free to update here.
-
 ---
 
 ## 📄 License
